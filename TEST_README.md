@@ -306,40 +306,40 @@ start coverage/index.html # Windows
 ## Key Features Tested
 
 ### User Journeys
-✅ View book list on home page
-✅ Click book to view details
-✅ Add new book via form
-✅ Navigate between pages
-✅ Use browser back/forward buttons
+- View book list on home page
+- Click book to view details
+- Add new book via form
+- Navigate between pages
+- Use browser back/forward buttons
 
 ### Form Validation
-✅ HTML5 validation (required fields)
-✅ API validation (server-side)
-✅ Field constraints (year, rating, pages)
-✅ Empty field handling
-✅ Invalid data handling
+- HTML5 validation (required fields)
+- API validation (server-side)
+- Field constraints (year, rating, pages)
+- Empty field handling
+- Invalid data handling
 
 ### Error Scenarios
-✅ 404 for non-existent books
-✅ Invalid book ID format
-✅ API validation errors
-✅ Recovery options (Back to Library)
+- 404 for non-existent books
+- Invalid book ID format
+- API validation errors
+- Recovery options (Back to Library)
 
 ### Edge Cases
-✅ Special characters (&, ", ', <, >)
-✅ Very long text (200+ chars)
-✅ Numeric boundaries (min/max values)
-✅ Empty states
+- Special characters (&, ", ', <, >)
+- Very long text (200+ chars)
+- Numeric boundaries (min/max values)
+- Empty states
 
 ### API Endpoints
-✅ GET /api/books - List all books
-✅ GET /api/books/[id] - Get book by ID
-✅ POST /api/books - Create new book
+- GET /api/books - List all books
+- GET /api/books/[id] - Get book by ID
+- POST /api/books - Create new book
 
 ### Data Operations
-✅ getBooks() - Retrieve all books
-✅ getBookById() - Find book by ID
-✅ addBook() - Add new book with unique ID
+- getBooks() - Retrieve all books
+- getBookById() - Find book by ID
+- addBook() - Add new book with unique ID
 
 ## Performance
 
