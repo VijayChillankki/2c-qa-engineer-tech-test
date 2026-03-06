@@ -53,14 +53,14 @@ npm --version   # Should be 9+
 npm run dev
 ```
 
+The application will be available at: http://localhost:3000 
+
+**Note**: The dev server must be running for E2E tests to work (Playwright config handles this automatically). UI tests will automatically start the dev server if it's not running.
+
 #### To install all browsers
 ```bash
 npx playwright install
 ```
-
-The application will be available at: http://localhost:3000
-
-**Note**: The dev server must be running for E2E tests to work (Playwright config handles this automatically).
 
 ## Running Tests
 
@@ -69,6 +69,11 @@ The application will be available at: http://localhost:3000
 #### Run All E2E Tests
 ```bash
 npm run test:e2e
+```
+
+#### Run All E2E Tests in Headed Mode
+```bash
+npm run test:e2e:headed
 ```
 
 #### Run Specific Test File

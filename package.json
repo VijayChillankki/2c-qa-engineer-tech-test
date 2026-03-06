@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test": "vitest",
     "test:e2e": "playwright test --project=chromium",
+    "test:e2e:headed": "playwright test --project=chromium --headed",
     "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
